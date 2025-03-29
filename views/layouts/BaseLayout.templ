@@ -1,1 +1,15 @@
 // Base layout component
+package layouts
+
+templ BaseLayout() {
+    <html>
+        <head>
+            <title>My App</title>
+            <link rel="stylesheet" href="/static/css/styles.css">
+        </head>
+        <body>
+            <slot />
+            <h1>Hello World</h1>
+        </body>
+    </html>
+}
