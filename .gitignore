@@ -1,0 +1,6 @@
+*.db-wal
+*.db-shm
+auxiliary.db
+data.db
+pb_data/auxiliary.db
+pb_data/data.db
